@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 import Feed from "../Feed/Feed";
 import Stories from "../Stories/Stories";
+import RightNav from "../Right-navbar/RightNav";
 
 function Home() {
   return (
@@ -16,7 +17,9 @@ function Home() {
             <Stories />
             <Feed />
           </div>
-          <div className="col-lg-4">:V</div>
+          <div className="col-lg-4">
+            <RightNav />
+          </div>
         </div>
       </div>
     </div>

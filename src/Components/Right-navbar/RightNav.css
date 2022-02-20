@@ -1,0 +1,81 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #RightNav {
+    margin-top: 40px;
+  }
+  #RightNav .UserInfo {
+    display: flex;
+    justify-content: start;
+  }
+  #RightNav .UserInfo p {
+    margin: 0;
+    font-weight: 500;
+  }
+  #RightNav .UserInfo em {
+    color: grey;
+    font-size: 0.96rem;
+  }
+
+  #RightNav .userImg {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: groove;
+  }
+
+  #Suggestions {
+    margin-top: 40px;
+  }
+  #Suggestions #SuggestionsParagraph {
+    color: grey;
+    font-size: 0.93rem;
+  }
+
+  #Suggestions .userImg {
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: groove;
+  }
+
+  #Suggestions .SuggestionInfo {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 4px;
+  }
+
+  #Suggestions .SuggestionInfo p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Suggestions .SuggestionInfo em {
+    margin: 0;
+    color: grey;
+    font-size: 0.79rem;
+  }
+  #Suggestions .FollowUnfollow {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(0, 17, 248);
+    font-size: 0.8rem;
+  }
+}
