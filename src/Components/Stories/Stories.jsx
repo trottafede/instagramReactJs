@@ -6,55 +6,41 @@ function Stories() {
   return (
     <div id="Stories">
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="col-lg-2">
             <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-2">
-            <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
             </div>
           </div>
-
           <div className="col-lg-2">
             <div className="Story">
-              <div id="imgContainer">
-                <img className="userImg" src={trottafede} alt="user" />
-                <p>trottafede</p>
-              </div>
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
+            </div>
+          </div>
+          <div className="col-lg-2">
+            <div className="Story">
+              <img className="userImg" src={trottafede} alt="user" />
+              <p>trottafede</p>
             </div>
           </div>
         </div>

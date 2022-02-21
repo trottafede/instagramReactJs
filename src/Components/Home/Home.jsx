@@ -12,7 +12,7 @@ function Home() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-4"></div>
+          <div className="col-lg-3"></div>
           <div className="col-lg-4">
             <Stories />
             <Feed />

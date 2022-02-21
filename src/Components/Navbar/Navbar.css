@@ -23,16 +23,21 @@
 
   nav h1 {
     font-size: 1.5rem;
-    margin-left: 330px;
+    margin-left: 180px;
+    font-family: "Lobster Two", cursive;
+  }
+
+  nav ul {
+    margin-left: 76px;
   }
 
   nav i {
-    margin-right: 20px;
-    font-size: 1.2rem;
+    margin-right: 27px;
+    font-size: 1.3rem;
   }
 
   nav #search {
-    margin-left: 200px;
+    margin-left: 223px;
     width: 270px;
   }
 }

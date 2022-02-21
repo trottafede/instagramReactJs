@@ -17,10 +17,11 @@
 @media (min-width: 1200px) {
   #RightNav {
     margin-top: 40px;
+    position: fixed;
   }
   #RightNav .UserInfo {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   }
   #RightNav .UserInfo p {
     margin: 0;
@@ -40,11 +41,12 @@
   }
 
   #Suggestions {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   #Suggestions #SuggestionsParagraph {
     color: grey;
-    font-size: 0.93rem;
+    font-size: 0.91rem;
+    margin-bottom: 10px;
   }
 
   #Suggestions .userImg {
@@ -57,7 +59,7 @@
 
   #Suggestions .SuggestionInfo {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-bottom: 4px;
   }
 

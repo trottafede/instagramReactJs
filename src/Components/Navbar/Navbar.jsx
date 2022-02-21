@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light">
       <div className="container">
         <a className="navbar-brand" href="/">
           <h1>Instagram</h1>
@@ -28,7 +28,7 @@ function Navbar() {
               aria-label="Search"
             />
           </form>
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <i class="fas fa-home"></i>
             </li>
