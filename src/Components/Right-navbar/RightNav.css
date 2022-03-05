@@ -11,6 +11,71 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #RightNav {
+    margin-top: 40px;
+    position: fixed;
+  }
+  #RightNav .UserInfo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #RightNav .UserInfo p {
+    margin: 0;
+    font-weight: 500;
+  }
+  #RightNav .UserInfo em {
+    color: grey;
+    font-size: 0.96rem;
+  }
+
+  #RightNav .userImg {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: groove;
+  }
+
+  #Suggestions {
+    margin-top: 20px;
+  }
+  #Suggestions #SuggestionsParagraph {
+    color: grey;
+    font-size: 0.91rem;
+    margin-bottom: 10px;
+  }
+
+  #Suggestions .userImg {
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: groove;
+  }
+
+  #Suggestions .SuggestionInfo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+  }
+
+  #Suggestions .SuggestionInfo p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #Suggestions .SuggestionInfo em {
+    margin: 0;
+    color: grey;
+    font-size: 0.79rem;
+  }
+  #Suggestions .FollowUnfollow {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(0, 17, 248);
+    font-size: 0.8rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

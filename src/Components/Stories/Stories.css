@@ -11,6 +11,32 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #Stories {
+    margin: 30px 0;
+    height: 120px;
+    background: #fff;
+    border-style: ridge;
+    background: rgba(var(--d87, 255, 255, 255), 1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  #Stories .Story .userImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 2px;
+    margin-left: 3px;
+  }
+
+  #Stories .Story p {
+    margin: 0;
+    margin-top: 4px;
+    color: grey;
+    font-size: 0.8rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

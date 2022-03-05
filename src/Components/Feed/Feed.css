@@ -11,6 +11,50 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #Feed .history {
+    border-style: ridge;
+    margin-bottom: 30px;
+  }
+  #Feed .userImg {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: groove;
+  }
+  #Feed .postIMG {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  #Feed .postBottom {
+    padding: 10px;
+  }
+  #Feed .postUserInfo p {
+    margin-left: 10px;
+    display: inline-block;
+  }
+
+  #Feed .history i {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  #Feed .postDescription {
+    margin-bottom: 20px;
+  }
+  #Feed .postDescription p {
+    margin-bottom: 2px;
+    font-size: 0.86rem;
+  }
+
+  .blackFont {
+    font-weight: bold;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
