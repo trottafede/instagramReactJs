@@ -1,27 +1,42 @@
-import "./Navbar.css";
 import React from "react";
+import { Link } from "react-router-dom";
+import trottafede from "../Feed/trottafede.jpg";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav className="navbar fixed-top navbar-expand-lg ">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link to="/Home">
           <h1>Instagram</h1>
-        </a>
+        </Link>
 
         <input
           id="search"
-          class="form-control me-2"
+          className="form-control"
           type="search"
           placeholder="Search"
           aria-label="Search"
         />
         <div id="icons">
-          <i class="fas fa-home"></i>
-          <i class="fas fa-comment"></i>
-          <i class="fas fa-plus-circle"></i>
-          <i class="fas fa-compass"></i>
-          <i class="fas fa-heart"></i>
+          <Link to="/">
+            <i className="fas fa-home"></i>
+          </Link>
+          <Link to="/messages">
+            <i className="fas fa-comment"></i>
+          </Link>
+          <Link to="/notFound">
+            <i className="fas fa-plus-circle"></i>
+          </Link>
+          <Link to="/notFound">
+            <i className="fas fa-compass"></i>
+          </Link>
+          <Link to="/likes">
+            <i className="fas fa-heart"></i>
+          </Link>
+          <Link to="/profile">
+            <img className="userImg" src={trottafede} alt="user" />
+          </Link>
         </div>
       </div>
     </nav>

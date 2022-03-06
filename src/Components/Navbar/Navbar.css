@@ -120,17 +120,36 @@
     font-family: "Lobster Two", cursive;
   }
 
+  nav #search {
+    width: 270px;
+    margin-left: 150px;
+  }
+
   nav #icons {
-    margin-left: auto;
+    padding-right: 140px;
   }
 
   nav i {
-    margin-right: 27px;
     font-size: 1.3rem;
   }
 
-  nav #search {
-    margin-left: 223px;
-    width: 270px;
+  nav .userImg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    border-width: 2px;
+    align-items: center;
+    text-align: center;
   }
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 27px;
+}
+
+nav a:hover {
+  color: inherit;
 }
