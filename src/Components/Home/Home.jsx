@@ -9,9 +9,9 @@ import Login from "../Login/Login";
 function Home() {
   return (
     <div>
-      <Login />
+      {/* <Login /> */}
 
-      {/* <Navbar />
+      {/* <Navbar /> */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-3"></div>
@@ -23,7 +23,7 @@ function Home() {
             <RightNav />
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
